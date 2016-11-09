@@ -1,8 +1,75 @@
 html {
-  text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+    margin: 0;
+    font: 10px / 1 sans-serif;
+}
+main {
+	width: 50%;
+	margin: auto;
+}
+nav {
+
+}
+nav div {
+	display: inline-block;
+	width: 100%;
+	background-color:lightgray;
+	padding: 2px 30px;
+	border-top: 2px solid red;
+	font-size: 12px;
+
+}
+a {
+	padding: 4px;
+	text-decoration: none;
+}
+b {
+	color: red;
+}
+p {
+	padding: .5em;
+}
+.contain-all {
+	display: flex;
+	justify-content: space-between;
+	width: 170px;
+	height: 116px;
+	text-align: center;
+	margin: auto;
+}
+.contain-left {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 103px;
+}
+.contain-right  {
+	display:flex;
+	flex-direction: column;
+	width: 64px;
+}
+.heading-format {
+	width: 35%;
+	margin: auto;
+	text-align:center;
+	
+}
+section {
+	display: flex;
+}
+.summary-text {
+	font-size: 12px;
+}
+.whats-new{
+	width: 30%;
+}
+.mod-layouts {
+	width: 68%;
+}
+.detail-text {
+    display: flex;
+
 }
